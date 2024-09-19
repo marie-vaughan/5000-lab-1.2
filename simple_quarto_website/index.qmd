@@ -1,0 +1,95 @@
+---
+title: "simple_quarto_website"
+format: 
+    html:
+        toc: true
+        toc_title: "Table of Contents"
+        toc-expand: 2
+bibliography: reference.bib
+---
+
+# This is header 1
+```{=html}
+<table>
+    <tr>
+        <td width="50%">
+            <p>First text column.</p>
+        </td>
+            <td width="50%">
+            <p>Second text column.</p>
+        </td>
+    </tr>
+</table>
+```
+## This is header 2
+- ipsum lorem
+- psum lorem
+- ipsum lorem
+### This is header 3 - Markdown Table
+```{=html}
+<table>
+    <thead>
+        <tr>
+            <th>COLUMN 1</th>
+            <th>COLUMN 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>data data</td>
+            <td>data data</td>
+        </tr>
+        <tr>
+            <td>data data</td>
+            <td>data data</td>
+        </tr>
+    </tbody>
+</table>
+```
+### Inline-math and non Inline-math LaTex equation
+
+ $f^{\prime}(x)=\frac{v(x) u^{\prime}(x)-u(x) v^{\prime}(x)}{(v(x))^2}$
+
+$$f^{\prime}(x)=\frac{v(x) u^{\prime}(x)-u(x) v^{\prime}(x)}{(v(x))^2}$$
+
+### Images
+```{=html}
+    <head>
+        <title>Simple Quarto Website</title>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    </head>
+    <body>
+        <h3>Embedded Images</h3>
+		<img src="images/oatmeal.jpg" alt="My photo" style="width:200px;height:250px;"><br>
+
+        <img src="images/olive.jpg" alt="My photo" style="width:200px;height:250px;"><br>
+
+        <h3>Embedded Video</h3>
+        <video width="320" height="240" controls>
+		<source src="images/5second.mp4" type="video/mp4">
+		</video>
+
+        <h3>Quote from Citation with Footnote</h3>
+```
+> "Successful data scientists must be able to view business 
+> problems from a data perspective."[^1]
+
+```{=html}
+        <!--- referenced chatgpt for mermaid diagram example--->
+        <h3>Mermaid</h3>
+        <div class="mermaid">
+            graph TD
+                A[Start] --> B{Is it working?}
+                B -->|Yes| C[Great!]
+                B -->|No| D[Troubleshoot]
+                D --> B
+                C --> E[End]
+        </div>
+    </body>
+```
+[^1]: Here is the footnote
+@doi:10.1089/big.2013.1508

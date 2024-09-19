@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "ipsum lorem\nipsum lorem\nipsum lorem\n\nimport matplotlib.pyplot as plt\nx = [1,3,5,7]\ny = [5,8,9,10]\nplt.plot(x, y)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "First text column.\nSecond text column.\n\n\n\n\n\n\nipsum lorem\npsum lorem\nipsum lorem ### This is header 3 - Markdown Table\n\n\n\n\nCOLUMN 1\nCOLUMN 2\n\n\n\n\ndata data\ndata data\n\n\ndata data\ndata data\n\n\n\n\n\n\\(f^{\\prime}(x)=\\frac{v(x) u^{\\prime}(x)-u(x) v^{\\prime}(x)}{(v(x))^2}\\)\n\\[f^{\\prime}(x)=\\frac{v(x) u^{\\prime}(x)-u(x) v^{\\prime}(x)}{(v(x))^2}\\]\n\n\n\n    \n        Simple Quarto Website\n        \n        \n    \n    \n        \n        \n\n        \n\n        \n        \n        \n        \n\n        \n\n“Successful data scientists must be able to view business problems from a data perspective.”1\n\n        \n        \n        \n            graph TD\n                A[Start] --&gt; B{Is it working?}\n                B --&gt;|Yes| C[Great!]\n                B --&gt;|No| D[Troubleshoot]\n                D --&gt; B\n                C --&gt; E[End]"
+  },
+  {
+    "objectID": "index.html#this-is-header-2",
+    "href": "index.html#this-is-header-2",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "ipsum lorem\npsum lorem\nipsum lorem ### This is header 3 - Markdown Table\n\n\n\n\nCOLUMN 1\nCOLUMN 2\n\n\n\n\ndata data\ndata data\n\n\ndata data\ndata data\n\n\n\n\n\n\\(f^{\\prime}(x)=\\frac{v(x) u^{\\prime}(x)-u(x) v^{\\prime}(x)}{(v(x))^2}\\)\n\\[f^{\\prime}(x)=\\frac{v(x) u^{\\prime}(x)-u(x) v^{\\prime}(x)}{(v(x))^2}\\]\n\n\n\n    \n        Simple Quarto Website\n        \n        \n    \n    \n        \n        \n\n        \n\n        \n        \n        \n        \n\n        \n\n“Successful data scientists must be able to view business problems from a data perspective.”1\n\n        \n        \n        \n            graph TD\n                A[Start] --&gt; B{Is it working?}\n                B --&gt;|Yes| C[Great!]\n                B --&gt;|No| D[Troubleshoot]\n                D --&gt; B\n                C --&gt; E[End]"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote Provost and Fawcett (2013)↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#slide-1",
+    "href": "slides/slides.html#slide-1",
+    "title": "Example Slides",
+    "section": "Slide 1",
+    "text": "Slide 1\n\nipsum lorem\nipsum lorem"
+  },
+  {
+    "objectID": "slides/slides.html#slide-2",
+    "href": "slides/slides.html#slide-2",
+    "title": "Example Slides",
+    "section": "Slide 2",
+    "text": "Slide 2\n\nipsum lorem\nipsum lorem\nSource Says Waller and Fawcett (2013)"
+  },
+  {
+    "objectID": "slides/slides.html#slide-3",
+    "href": "slides/slides.html#slide-3",
+    "title": "Example Slides",
+    "section": "Slide 3",
+    "text": "Slide 3\n\nipsum lorem\nipsum lorem\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWaller, Matthew A, and Stanley E Fawcett. 2013. “Data Science, Predictive Analytics, and Big Data: A Revolution That Will Transform Supply Chain Design and Management.” Journal of Business Logistics. Wiley Online Library."
+  }
+]

@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+```{=html}
+<h1>ipsum lorem</h1>
+<h2>ipsum lorem</h2>
+<h3>ipsum lorem</h3>
+```
+```{python}
+import matplotlib.pyplot as plt
+x = [1,3,5,7]
+y = [5,8,9,10]
+plt.plot(x, y)
+```
+

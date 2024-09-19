@@ -1,0 +1,31 @@
+---
+title: "Example Slides"
+author: "Marie Vaughan"
+format: 
+    revealjs:
+        code-fold: true
+        code-summary: "Show the code"
+bibliography: ../reference.bib
+---
+
+## Slide 1 {background-image="images/olive.JPG" background-size="100px"}
+
+- ipsum lorem
+- ipsum lorem
+
+## Slide 2 {background-image="images/oatmeal.JPG" background-size="100px"}
+
+- ipsum lorem
+- ipsum lorem
+- Source Says @waller2013data
+
+## Slide 3
+
+- ipsum lorem
+- ipsum lorem
+```{python}
+import matplotlib.pyplot as plt
+x = [1,3,5,7]
+y = [5,8,9,10]
+plt.plot(x, y)
+```
